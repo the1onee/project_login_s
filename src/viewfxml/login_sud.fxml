@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="654.0" prefWidth="810.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="idtsl" alignment="CENTER" layoutX="383.0" layoutY="105.0" prefHeight="31.0" prefWidth="163.0" promptText="تسلسل الطالب" style="-fx-background-radius: 20; -fx-background-color: #35af3e;">
+               <stylesheets>
+                  <URL value="@../css/stayl.css" />
+                  <URL value="@../css/stayl.css" />
+               </stylesheets>
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="btred" />
+                  <String fx:value="promtrsul" />
+               </styleClass>
+               <effect>
+                  <DropShadow height="0.0" radius="6.5375" width="28.15" />
+               </effect>
+            </TextField>
+            <TextField fx:id="idyear" alignment="CENTER" layoutX="146.0" layoutY="105.0" prefHeight="31.0" prefWidth="162.0" promptText="سنة قبول " style="-fx-background-radius: 20; -fx-background-color: #35af3e;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="btred" />
+                  <String fx:value="promtrsul" />
+               </styleClass>
+               <effect>
+                  <DropShadow height="0.0" radius="6.5375" width="28.15" />
+               </effect>
+            </TextField>
+            <TextField fx:id="name1" alignment="CENTER" blendMode="SRC_ATOP" layoutX="506.0" layoutY="153.0" promptText="الاسم" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="name2" alignment="CENTER" layoutX="346.0" layoutY="153.0" promptText="اسم الاب" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="name3" alignment="CENTER" layoutX="186.0" layoutY="153.0" promptText="اسم  الاجد" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="name4" alignment="CENTER" layoutX="17.0" layoutY="153.0" promptText="اسم الرباعي" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="birth" alignment="CENTER" layoutX="505.0" layoutY="185.0" promptText="تاريخ الولادة" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="sex" alignment="CENTER" layoutX="345.0" layoutY="185.0" promptText="الجنس" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="weat" alignment="CENTER" layoutX="185.0" layoutY="185.0" promptText="الوزن" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="longg" alignment="CENTER" layoutX="16.0" layoutY="185.0" promptText="الطول" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="count" alignment="CENTER" layoutX="505.0" layoutY="223.0" promptText="البلد" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="count1" alignment="CENTER" layoutX="345.0" layoutY="223.0" promptText="مكان الولادة" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="count2" alignment="CENTER" layoutX="185.0" layoutY="223.0" promptText="المحافظة" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="count3" alignment="CENTER" layoutX="16.0" layoutY="223.0" promptText="المدينة" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="email" alignment="CENTER" layoutX="504.0" layoutY="259.0" promptText="ايميل" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="phon" alignment="CENTER" layoutX="344.0" layoutY="259.0" promptText="رقم الهاتف" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="acount" alignment="CENTER" layoutX="185.0" layoutY="259.0" promptText="الحساب الشخصي" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="repot" alignment="CENTER" layoutX="15.0" layoutY="259.0" promptText="الرمز البريدي" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="unver" alignment="CENTER" layoutX="506.0" layoutY="296.0" promptText="الجامعة" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="collage" alignment="CENTER" layoutX="346.0" layoutY="296.0" promptText="الكلية" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="chaptr" alignment="CENTER" layoutX="186.0" layoutY="296.0" promptText="القسم" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="moring" alignment="CENTER" layoutX="17.0" layoutY="296.0" promptText="نوع الدوام" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="avrg" alignment="CENTER" layoutX="505.0" layoutY="333.0" promptText="المعدل" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="mixx" alignment="CENTER" layoutX="345.0" layoutY="333.0" promptText="المجموع" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="tkhrgyear" alignment="CENTER" layoutX="185.0" layoutY="333.0" promptText="سنة التخرج" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="rsobyear" alignment="CENTER" layoutX="16.0" layoutY="333.0" promptText="سنوات الرسوب" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="treye" alignment="CENTER" layoutX="505.0" layoutY="369.0" promptText="درجة البصر" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="boaldzmr" alignment="CENTER" layoutX="345.0" layoutY="369.0" promptText="زمره الدم" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="mrghname" alignment="CENTER" layoutX="185.0" layoutY="369.0" promptText="نوع المرض" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="healthloc" alignment="CENTER" layoutX="16.0" layoutY="369.0" promptText="الحالة الصحية بشكل عام" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="levenghlish" alignment="CENTER" layoutX="503.0" layoutY="408.0" promptText="مستوى انكليزي" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="shadat" alignment="CENTER" layoutX="343.0" layoutY="408.0" promptText="الشهادات" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="sportshad" alignment="CENTER" layoutX="183.0" layoutY="408.0" promptText="الرياضة" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <TextField fx:id="hoieat" alignment="CENTER" layoutX="14.0" layoutY="408.0" promptText="الهوايات" style="-fx-background-radius: 30; -fx-border-radius: 30;" stylesheets="@../css/stayl.css">
+               <styleClass>
+                  <String fx:value="labshado" />
+                  <String fx:value="hoverbtn" />
+                  <String fx:value="rsul" />
+                  <String fx:value="promtrsul" />
+               </styleClass></TextField>
+            <Button fx:id="view" defaultButton="true" depthTest="DISABLE" layoutX="279.0" layoutY="528.0" onAction="#viewname" pickOnBounds="false" prefHeight="8.0" prefWidth="150.0" style="-fx-background-radius: 30; -fx-border-color: #36516c; -fx-border-radius: 30; -fx-border-width: 6; -fx-background-color: #36516c;" styleClass="fonteng" stylesheets="@../css/stayl.css" text="view" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Amiri Bold" size="20.0" />
+               </font></Button>
+            <AnchorPane layoutX="659.0" layoutY="-12.0" prefHeight="633.0" prefWidth="148.0" styleClass="rsul" stylesheets="@../css/stayl.css" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="26.0" layoutY="155.0" prefHeight="22.0" prefWidth="78.0" style="-fx-background-color: #FEFEFE; -fx-background-radius: 30;" stylesheets="@../css/stayl.css" text="الاسم" textAlignment="CENTER" textFill="#818481">
+                     <styleClass>
+                        <String fx:value="shado" />
+                        <String fx:value="labgray" />
+                     </styleClass></Label>
+                  <Label alignment="CENTER" layoutX="14.0" layoutY="260.0" prefHeight="22.0" prefWidth="101.0" style="-fx-background-color: #FEFEFE; -fx-background-radius: 30;" text="البيانات الاكترونية" textAlignment="CENTER" textFill="#8f9191">
+                     <styleClass>
+                        <String fx:value="shado" />
+                        <String fx:value="labgray" />
+                     </styleClass></Label>
+                  <Label alignment="CENTER" layoutX="26.0" layoutY="223.0" prefHeight="22.0" prefWidth="78.0" style="-fx-background-color: #FEFEFE; -fx-background-radius: 30;" text="السكن" textAlignment="CENTER" textFill="#8f9191">
+                     <styleClass>
+                        <String fx:value="shado" />
+                        <String fx:value="labgray" />
+                     </styleClass></Label>
+                  <Label alignment="CENTER" layoutX="26.0" layoutY="188.0" prefHeight="22.0" prefWidth="78.0" style="-fx-background-color: #FEFEFE; -fx-background-radius: 30;" text="المعلومات" textAlignment="CENTER" textFill="#8f9191">
+                     <styleClass>
+                        <String fx:value="shado" />
+                        <String fx:value="labgray" />
+                     </styleClass></Label>
+                  <Label alignment="CENTER" layoutX="26.0" layoutY="333.0" prefHeight="22.0" prefWidth="78.0" style="-fx-background-color: #FEFEFE; -fx-background-radius: 30;" text="البيانات" textAlignment="CENTER" textFill="#8f9191">
+                     <styleClass>
+                        <String fx:value="shado" />
+                        <String fx:value="labgray" />
+                     </styleClass></Label>
+                  <Label alignment="CENTER" layoutX="26.0" layoutY="370.0" prefHeight="22.0" prefWidth="78.0" style="-fx-background-color: #FEFEFE; -fx-background-radius: 30;" text="الصحة" textAlignment="CENTER" textFill="#8f9191">
+                     <styleClass>
+                        <String fx:value="shado" />
+                        <String fx:value="labgray" />
+                     </styleClass></Label>
+                  <Label alignment="CENTER" layoutX="26.0" layoutY="408.0" prefHeight="22.0" prefWidth="78.0" style="-fx-background-color: #FEFEFE; -fx-background-radius: 30;" text="other" textAlignment="CENTER" textFill="#8f9191">
+                     <styleClass>
+                        <String fx:value="shado" />
+                        <String fx:value="labgray" />
+                     </styleClass></Label>
+                  <Label alignment="CENTER" layoutX="26.0" layoutY="297.0" prefHeight="22.0" prefWidth="78.0" style="-fx-background-color: #FEFEFE; -fx-background-radius: 30;" text="الجامعة" textAlignment="CENTER" textFill="#8f9191">
+                     <styleClass>
+                        <String fx:value="shado" />
+                        <String fx:value="labgray" />
+                     </styleClass></Label>
+                  <ImageView fx:id="addimg" fitHeight="57.0" fitWidth="63.0" layoutX="49.0" layoutY="530.0" onMousePressed="#addname" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/addimg.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="ADD" alignment="CENTER" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" layoutX="51.0" layoutY="559.0" minHeight="0.0" minWidth="14.0" mnemonicParsing="false" onAction="#addname" opacity="0.0" prefHeight="22.0" prefWidth="14.0" text=" " textAlignment="CENTER" textFill="TRANSPARENT" wrapText="true">
+                     <font>
+                        <Font name="Arial" size="1.0" />
+                     </font>
+                  </Button>
+                  <FontAwesomeIcon fx:id="imgbut" fill="#fefefe" glyphName="HOME" layoutX="42.0" layoutY="78.0" onMousePressed="#Imgmous" size="70" styleClass="labshado" text="" />
+               </children>
+            </AnchorPane>
+            <Button fx:id="bbf" layoutX="42.0" layoutY="541.0" minWidth="20.0" mnemonicParsing="false" opacity="0.0" prefHeight="22.0" prefWidth="20.0">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="60.0" fitWidth="69.0" layoutX="27.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/colgelo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="58.0" fitWidth="48.0" layoutX="588.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/unverlogo.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="23.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="51.0" prefWidth="346.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #FEFEFE;" text="تسجيل الطالب مرحلة اولى" textAlignment="CENTER" textFill="#36516c" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Blackadder ITC" size="26.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="lbl-info" />
+                  <String fx:value="middle" />
+                  <String fx:value="font" />
+                  <String fx:value="root" />
+                  <String fx:value="labshado" />
+               </styleClass>
+               <stylesheets>
+                  <URL value="@../css/bootstrapfx.css" />
+                  <URL value="@../css/stayl.css" />
+               </stylesheets>
+            </Label>
+             
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

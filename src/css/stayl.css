@@ -1,0 +1,91 @@
+
+
+ @font-face {
+       font-family: 'Amiri-Bold';
+       src: url('Amiri-Bold.ttf');
+
+   }
+   @font-face {
+          font-family: 'Acme';
+          src: url('Acme-Regular.ttf');
+
+      }
+   @font-face {
+          font-family: 'Lobster';
+
+          src: url("Lobster-Regular.ttf");
+      }
+
+
+
+.root{
+ -fx-background-color:linear-gradient(to top, #156FC1,#01BAE9);
+
+-fx-effect:dropshadow(gaussian, rgba(0, 0, 0, 0.3), 20, 0.5, 0.0, 0.0);
+}
+.ered{
+ -fx-background-color:linear-gradient(to top,#7B150D,#F31B09);
+}
+.labshado{
+-fx-background-color: linear-gradient(to top,#FFFFFF, #F2F2F2);
+ -fx-effect: innershadow( gaussian, rgba( 0, 0, 0, 0.5 ), 10, 0, 3, 3 );
+}
+.shado{
+-fx-background-color: linear-gradient(to top,#FFFFFF, #E1E1E2);
+ -fx-effect:innershadow( gaussian, rgba( 0, 0, 0, 0.5 ), 10, 0, 5, 3 );
+}
+
+
+ .hoverbtn{
+    -fx-text-fill: #333;
+    -fx-fill:#333;
+    -fx-background-color: #e6e6e6;
+    -fx-border-color: #adadad; }
+
+
+
+   .btred{
+
+   -fx-background-color:linear-gradient(to top,#B61010,#F01515);
+   }
+    .witeback{
+
+      -fx-background-color:linear-gradient(to top,#FFFFFF,#FFFFFF5);
+      -fx-text-fill:red;
+      }
+   .ttext {
+       -fx-font-family: 'Amiri', serif;
+
+   }
+   .fonteng{
+    -fx-font-family: 'Lobster', cursive;
+
+   }
+
+   .rsul{
+     -fx-background-color:linear-gradient(to top,#3e5d7c,#36516c);
+
+   }
+   .textfontadd{
+
+-fx-font-family: 'Acme', sans-serif;
+   }
+
+   .promtrsul{
+   -fx-prompt-text-fill: #ffffff;
+-fx-text-fill: #ffffff;
+   }
+   .promtr{
+      -fx-prompt-text-fill: black;
+   -fx-text-fill: black;
+      }
+
+     .labgray{
+
+   -fx-text-fill: #818481;
+      }
+
+
+   .menu {
+        -fx-text-fill: greenyellow;
+    }
